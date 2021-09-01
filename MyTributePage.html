@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<main id = "main">
+
+    <style>
+        html {
+            font-size: 20px; /*1 rem = 20px*/
+        }
+
+        body {
+            text-align: center;
+            margin: 0;
+        }
+
+        #main {
+            margin: 10px 30px;
+            padding: 10px;
+            border-radius: 25px;
+            background-color: rgb(211, 231, 255);
+        }
+
+        @media (max-width: 460px) {
+            #main {
+                margin: 0px;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        #img-div {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 0;
+        }
+
+        #img-caption {
+            margin: 15px 0 5px 0;
+        }
+
+        ul {
+            max-width: 480px;
+            margin: 0 auto 50px auto;
+            text-align: center;
+        }
+
+    </style>
+
+    <head>
+        <!--title is what shows in the page's browser tab i.e. Youtube, Wikipedia, etc-->
+        <title>TEMPORARY TITLE</title>
+    </head>
+    
+    <body>
+        <!--Page title and introduction-->
+        <h1 id= "title">Tribute to Somebody</h1>
+        <p>This is an opening description!</p>
+
+        <!--Image and its caption-->
+        <figure id="img-div">
+            <img
+                id="image"
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg"
+                alt="Picture of Somebody"
+            />
+            <figcaption id="img-caption">
+                Here is a picture of some random dudes.
+            </figcaption>
+            
+        </figure>
+
+        <!--The main section of the page-->
+        <section id="tribute-info">
+            <h3 id="headline">
+                Here is a timeline of things this person did
+            </h3>
+            <!--Timeline of accomplishments-->
+            <ul>
+                <li><strong>1900</strong> - This person did this thing at this time</li>
+                <li><strong>1910</strong> - This person did this thing at this time</li>
+                <li><strong>1950</strong> - This person did this thing at this time</li>
+                <li><strong>1970</strong> - This person did this thing at this time</li>
+                <li><strong>2000</strong> - This person did this thing at this time</li>
+            </ul>
+            <!--Quote with source-->
+            <blockquote
+                cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm"
+            >
+                <p>
+                    "This guy was cool."
+                </p>
+                <cite>-- Some Guy</cite>
+            </blockquote>
+            <!--Closing remarks--> 
+            <!--setting target to "_blank" makes it open in another tab
+                The ! at the end is just punctuation at the end of sentence. Not anything important.
+            -->
+            <h3>
+                Check out their
+                <a
+                    id="tribute-link"
+                    href="https://en.wikipedia.org/wiki/Norman_Borlaug"
+                    target="_blank"
+                >
+                    Wikipedia Page
+                </a>
+                !
+            </h3>
+
+            </h3>
+        </section>
+    </body>
+</main>
