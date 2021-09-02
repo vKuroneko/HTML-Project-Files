@@ -1,7 +1,7 @@
 # HTML Project Files
 
 A small repository where I will upload my HTML practice files and link to them from a central page
-# (^‿^)
+
 [Project Files Home](https://vkuroneko.github.io/HTML-Project-Files/)
 
 While you're here, feel free to check out my [Webpage](http://jesusvalentinvalencia.wordpress.com/)!
