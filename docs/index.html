@@ -22,15 +22,17 @@
             flex-flow: column wrap;
             /*background-color: DodgerBlue;*/
             border: none;
-            justify-items: center;
             align-items: center;
+            justify-content: center;
+            
         }
 
 
         .project-link{         
             border: black solid;
             display: inline-block;
-            width: 100px;
+            width: 50%;
+            height:max-content;
             padding: 16px 32px;
             margin: 4px;
             vertical-align: middle;
@@ -43,9 +45,9 @@
             white-space: nowrap;
         }
 
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 720px) {
             .flex-container{
-                width: 400px;
+                width: 100%;
             }
         }
     </style>
@@ -55,5 +57,9 @@
             href="SurveyForm.html">Survey Form</a>
         <a id="tribute-button" type="button" class="project-link" target="_blank"
             href="MyTributePage.html" >Tribute Page</a>
+        <a id="tribute-button" type="button" class="project-link" target="_blank"
+        href="/docs/MusicPlayer/MusicPlayer.html" >Music Player One</a>
+        <a id="tribute-button" type="button" class="project-link" target="_blank"
+            href="/docs//SecondMusicPlayer/MusicPlayer.html" >Music Player Two</a>
     </div>
 </body>
