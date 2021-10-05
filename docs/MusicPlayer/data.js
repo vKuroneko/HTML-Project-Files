@@ -1,7 +1,7 @@
 let songs = [
     {
         name: 'Clear Sky',
-        path: '/docs/MusicPlayer/Music/clear-sky.mp3',
+        path: 'https://github.com/vKuroneko/HTML-Project-Files/blob/master/docs/MusicPlayer/Music/clear-sky.mp3?raw=true',
         artist: 'Hartzmann',
         cover: '/docs/MusicPlayer/Images/Cover/bright_blue_flower.png'
     },
