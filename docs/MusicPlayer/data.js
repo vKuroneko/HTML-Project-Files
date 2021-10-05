@@ -7,13 +7,13 @@ let songs = [
     },
     {
         name: 'Trendsetter',
-        path: '/docs/MusicPlayer/Music/trendsetter.mp3',
+        path: 'https://github.com/vKuroneko/HTML-Project-Files/blob/master/docs/MusicPlayer/Music/trendsetter.mp3?raw=true',
         artist: 'Mood Maze',
         cover: '/docs/MusicPlayer/Images/Cover/bright_blue_flower.png'
     },
     {
         name: 'Tropicana',
-        path: '/docs/MusicPlayer/Music/tropicana.mp3',
+        path: 'https://github.com/vKuroneko/HTML-Project-Files/blob/master/docs/MusicPlayer/Music/tropicana.mp3?raw=true',
         artist: 'Soundroll',
         cover: '/docs/MusicPlayer/Images/Cover/bright_blue_flower.png'
     }
